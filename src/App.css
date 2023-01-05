@@ -1,3 +1,8 @@
+.containerX{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
 .App{
     width: 100%;
     border: #003F62 1px solid;
@@ -49,7 +54,10 @@
 }
 .logoSrch{
     width: 70%;
+    margin: 0;
+    display: flex;
     gap: 85px;
+    justify-content: flex-start;
 }
 .iconNav{
     gap: 0.3rem;

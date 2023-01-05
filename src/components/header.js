@@ -23,7 +23,7 @@ function Header(props) {
       </div>
       <div className="navMenu paddin d-flex w-100">
         <nav className="navbar bg-body-tertiary paddin d-flex w-100 justify-content-between">
-          <div className="container-fluid logoSrch">
+          <div className="logoSrch">
             <img className="navbar-brand" src={logo} />
             <form className="d-flex srchForm" role="search">
               <input
